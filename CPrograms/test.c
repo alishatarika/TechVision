@@ -1,18 +1,17 @@
-#include
+#include<stdio.h>
 
 int main()
 {
     /* code */
     int a, b;
-    a = 2;
-    b = 3;
+    a = 56;
+    b = 38
+    ;
 
-    printf("a & b = %d\n", a&b);
-    printf("a - b = %d\n", a-b);
-    printf("a * b = %d\n", a*b);
-    printf("a / b = %d\n", a/b);
+    printf("a & b = %d", a+b);
+    printf("a - b = %.d", a-b);
+    printf("a * b = %d", a*b);
+    printf("a / b = %d", a/b);
 
     return 0;
 }
-
-
