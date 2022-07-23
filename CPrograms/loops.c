@@ -6,11 +6,11 @@ int main()
     scanf("%d, &number");
     if ( number>34)
      
-    printf( "Enter a number greater than 54");
+    printf( "Enter a number greater than 34");
 
     else( number<78)
 
-     ;printf("Enter a number less than 100");
+     ;printf("Enter a number less than 78");
 
     return 0;
 
