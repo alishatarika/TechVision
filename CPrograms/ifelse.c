@@ -1,44 +1,40 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
-{ 
+{
     int number;
-    printf("Enter a number");
-    scanf("%d, &number");
 
-    printf("Enter a number");
-    scanf("%d, &number");
-   
-if ( number>100)
-     
-    printf( "Enter a number greater than 100");
+    printf("Enter a number"); /// output
+    scanf("%d", &number);     // input
 
-     else if ( number>200)
-     
-    printf( "Enter a number greater than 200");
+    if ( 100 < number & 200> number )
+    {
 
-     else if ( number>300)
-     
-    printf( "Enter a number greater than 300");
+        printf("Enter a number greater than 100 ");
+    }
 
-     else if ( number>400)
-     
-    printf( "Enter a number greater than 400");
+    else if (200 < number & 300> number)
+    {
+        printf("Enter a number greater than 200 ");
+    }
 
-    else( number<500)
+    else if (300< number & 400> number )
+    {
 
-     ;printf("Enter a number less than 500");
-    
-     
-     
-    
-     
+        printf("Enter a number greater than 300 ");
+    }
 
+    else if (400< number & 500>number )
+    {
 
-    else( number<500)
+        printf("Enter a number greater than 400 ");
+    }
 
-     ;printf("Enter a number less than 500");
+    else
+    {
+
+                printf("Enter a number greater than 500");
+    }
 
     return 0;
-
 }
