@@ -8,15 +8,16 @@ int main()
     scanf("%d", &n);
     if (n % 3 == 0)
     {
-        printf("Number is divisible by 3");
+        printf("Remainder is 0");
     }
     else if (n % 3 == 1)
     {
-        printf("Number is not divisible by 3");
+        printf("Remainder is 1");
     }
     else
     {
-        printf("Number is  not divisible by 3");
+        printf("Remainder is 3");
     }
     return 0;
 }
+        
