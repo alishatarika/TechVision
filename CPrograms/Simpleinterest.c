@@ -4,13 +4,20 @@ int main()
 {
 
     int p;
-    int n;
+    int t;
     float r, si;
-    p = 652;
-    n = 397;
-    r = 67;
+    printf("Enter a value of p ");
 
-    si = p * n * r / 100;
+    scanf("%d", &p);
+
+    printf("Enter a value of r ");
+
+    scanf("%f", &r);
+
+    printf("Enter a value of t ");
+    scanf("%d", &t);
+
+    si = p * r * t / 100;
     printf("%f", si);
     return 0;
 }
