@@ -1,30 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
 
-  int multiply(int a , int b);{
-    return a*b;
-  }
- 
+int main()
+{
 
- int n;
-  printf( "Enter a number: ");
-  scanf("%d" , &n);
-
-  
-
-   printTableText(1, n);
-    printTableText(2, n);
-    printTableText(3, n);
-    printTableText(4, n);
-    printTableText(5, n);
-    printTableText(6, n);
-    printTableText(7, n);
-    printTableText(8, n);
-    printTableText(9, n);
-    printTableText(10, n);
+  int n;
+  printf("Enter a number: ");
+  scanf("%d", &n);
+  n = 10 * 5;
+  printf( "%d", n);
+  n=2;
+  n=3;
+  printf( "%d", n);
 
   
-    return 0;
+
+  return 0;
 }
-

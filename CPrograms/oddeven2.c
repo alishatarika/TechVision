@@ -1,17 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() 
+int main()
 {
-     int n;
+    int n;
     printf("Enter a number :");
     scanf("%d", &n);
 
-    if (n % 2 != 0 ){
-printf("Number is odd" );}
- 
-else {
-printf("Number is even");}
+    if (n % 2 != 0)
+    {
+        printf("Number is odd");
+    }
 
-return 0;
+    else
+    {
+        printf("Number is even");
+    }
+
+    return 0;
 }
-
