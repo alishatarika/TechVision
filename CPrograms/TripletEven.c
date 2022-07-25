@@ -16,7 +16,7 @@ int main()
     }
     else
     {
-        printf("Remainder is 3");
+        printf("Remainder is 2");
     }
     return 0;
 }
