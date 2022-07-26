@@ -3,22 +3,22 @@
 int main()
 {
 
-    int p;
-    int t;
-    int r;
-    int si;
-    printf("Enter a value of p ");
+    int principle;
+    int time;
+    int rate;
+    int simpleinterest;
+    printf("Enter a value of principle ");
 
-    scanf("%d", &p);
+    scanf("%d", &principle);
 
-    printf("Enter a value of r ");
+    printf("Enter a value of rate ");
 
-    scanf("%d", &r);
+    scanf("%d", &rate);
 
-    printf("Enter a value of t ");
-    scanf("%d", &t);
+    printf("Enter a value of time ");
+    scanf("%d", &time);
 
-    si = p * r * t / 100;
-    printf("%d", si);
+    simpleinterest = principle * rate * time / 100;
+    printf("Simple interest is %d", simpleinterest);
     return 0;
 }
