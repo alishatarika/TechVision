@@ -11,6 +11,6 @@ int main()
     printf("Enter the value of breadth : ");
     scanf("%d", &breadth);
     area = length * breadth;
-    printf("%d", area);
+    printf("Area of Rectangle is %d", area);
     return 0;
 }
