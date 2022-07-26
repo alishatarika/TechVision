@@ -10,7 +10,7 @@ int main()
     scanf("%d", &radius);
 
     area = 3.14 * radius * radius;
-    printf("%d", area);
+    printf("Area of Circle is %d", area);
 
     return 0;
 }
