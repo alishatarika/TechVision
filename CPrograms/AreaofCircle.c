@@ -1,16 +1,16 @@
 #include <stdio.h>
-/* r denotes radius and a denotes area of circle*/
+
 int main()
 {
 
-    int r;
-    int a;
+    int radius;
+    int area;
 
-    printf("Enter value of r: ");
-    scanf("%d", &r);
+    printf("Enter value of radius: ");
+    scanf("%d", &radius);
 
-    a = 3.14 * r * r;
-    printf("%d", a);
+    area = 3.14 * radius * radius;
+    printf("%d", area);
 
     return 0;
 }
