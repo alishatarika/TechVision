@@ -3,27 +3,30 @@
 int main()
 {
     int number;
-    printf("Enter the number");
+    int i;
+
+    printf("Enter the number ");
     scanf("%d", &number);
+    int count = 0;
+    for (i = 2; i < number; i++)
+    {
+      
+        if (number % i == 0)
+        { 
+        count++;
+        }
+        if(count>0)
+        {
+            printf("number is nonprime \n");
+        }
 
-    if (number < 2)
-    {
-        printf("number is neither prime or non prime");
+        else
+        {
+            printf("number is prime \n");
+        }
     }
+    printf("%d", i);
 
-    else if (number = 2)
-    {
-        printf("number is prime");
-    }
-
-    else if (number % 2 == 0 )
-    {
-        printf("number is nonprime");
-    }
-    else
-    {
-        printf("number is prime");
-    }
 
     return 0;
 }
