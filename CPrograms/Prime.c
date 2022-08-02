@@ -4,29 +4,31 @@ int main()
 {
     int number;
     int i;
+    int flag = 0;
 
-    printf("Enter the number ");
+    printf("Enter a number ");
     scanf("%d", &number);
-    int count = 0;
-    for (i = 2; i < number; i++)
-    {
-      
-        if (number % i == 0)
-        { 
-        count++;
-        }
-        if(count>0)
+
+    
+        for (i = 2; i < number; i++) 
         {
-            printf("number is nonprime \n");
+        
+    
+        if (number % i == 0)
+        {
+            flag = 1;
+            break;
+        }
+        }
+        if (flag == 1)
+        {
+            printf("number is nonprime \n", number);
         }
 
         else
         {
-            printf("number is prime \n");
+            printf("number is prime \n", number);
         }
-    }
-    printf("%d", i);
-
-
+    
     return 0;
-}
+     }
