@@ -1,13 +1,10 @@
 #include<stdio.h>
 
-int add(int a, int b)
-{
-    return a + b;
-}
 
 
 int main()
 {
+    int add;
     int a;
     int b;
     printf("Enter a : ");
@@ -15,8 +12,8 @@ int main()
 
     printf("Enter b : ");
     scanf("%d", &b);
-
-    printf("Result : %d\n", add(a, b));
+    add =a + b;
+    printf("%d" , add);
     return 0;
 }
 
