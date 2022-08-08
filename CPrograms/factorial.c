@@ -12,7 +12,7 @@ int main()
     for(i=1;i<=num ;i++)
      factorial =factorial * i;
     
-    printf("%d!=%d \n", num , factorial);
+    printf("%d=%d \n", num , factorial);
 
     return 0;
 }

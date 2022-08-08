@@ -1,6 +1,4 @@
-#include<stdio.h>
-
-
+#include <stdio.h>
 
 int main()
 {
@@ -12,8 +10,7 @@ int main()
 
     printf("Enter b : ");
     scanf("%d", &b);
-    add =a + b;
-    printf("%d" , add);
+    add = a + b;
+    printf("%d", add);
     return 0;
 }
-

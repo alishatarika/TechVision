@@ -10,8 +10,9 @@ int main()
 
     else( number<78)
 
-     ;printf("Enter a number less than 78");
 
+    printf("Enter a number less than 78");
+    
     return 0;
 
 }
