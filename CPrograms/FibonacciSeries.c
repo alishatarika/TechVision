@@ -10,15 +10,17 @@ int main()
     int n2 = 1;
     int sum;
     
-    printf("%d ", n1 );
+    
 
-    for (int i = 0; i <= n; i++)
+    for (int i = 1; i <= n; i++)
+    
     {
-
+        
+        printf(" %d " , n1);
+        
+        sum = n1 + n2;
         n1 = n2;
         n2 = sum;
-        sum = n1 + n2;
-        printf(" %d " ,sum);
     }
     return 0;
 }
