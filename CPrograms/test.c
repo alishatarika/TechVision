@@ -1,30 +1,16 @@
 #include <stdio.h>
 int main()
-// n =11
-// 1
-// 2 3 
-// 4 5 6
-// 7 8 9 10
-//11
+// 0 1 1 2 3 5 8
 {
     int n;
-    int i;
-    int j;
-    int count = 1;
-    printf("Enter a number ");
-    scanf("%d", &n);
-    for (i = 1; i <= n; i++)
-
+    int sum = 0;
+    for (int i = 1; i <= n; i++)
     {
-        for (j = 1; j <= i ; j++)
-        {
-
-            printf("%d",count );
-            count++;
-
-
-        } 
-        printf(" \n");
+        printf("Enter a number");
+        scanf("%d", &n);
+         sum = sum + n;
+         printf("%d",sum);
     }
+    
     return 0;
 }
