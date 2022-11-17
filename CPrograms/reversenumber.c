@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
-// 12345
-// 54321
+
 {
     int number;
     printf("Enter a five digit number ");
