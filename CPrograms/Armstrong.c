@@ -1,26 +1,33 @@
 #include <stdio.h>
-
+#include<conio.h>
 int main()
 {
-    int sum;
-    int n;
-    int t=n;
-    int r;
+    int n,r,sum,i,t;
+    sum=0;
     printf("Enter a three digit number ");
     scanf("%d", &n);
-    while (n>0)
+    
+    for(i=1;i<=n;i++)
     {
-        r=n%10;
-        sum=sum+(r*r*r);
-        n=n/10;
+        
+        t=i;
+        while(i>0)
+       {
+       r=i%10;
+       sum=sum+r*r*r; 
+       i=i/10;
+       }
+    
+      if(t==sum)
+      {
+        printf("%d",t);
+      }
+      
     }
-    if (t==sum)
-    {
-        printf("Number is armstrong");
-    }
-    else
-    {
-      printf("Number is not armstrong");
-    }
+      
+    
+
+
+
     return 0;
 }
