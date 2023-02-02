@@ -1,16 +1,18 @@
 #include <stdio.h>
 int main()
-// 0 1 1 2 3 5 8
+    
+  
 {
     int n;
-    int sum = 0;
-    for (int i = 1; i <= n; i++)
+    printf("Enter the value ");
+    scanf("%d",&n);
+    for(int i=1 ;i<=n;i++)
     {
-        printf("Enter a number");
-        scanf("%d", &n);
-         sum = sum + n;
-         printf("%d",sum);
+        for (int k=n;k>i;k--)
+        printf(" ");{
+        for(int j=1;j<=i;j++)
+        printf(" * ");
+        printf(" \n ");}
     }
-    
     return 0;
 }
