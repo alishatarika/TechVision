@@ -4,15 +4,12 @@ int main()
   
 {
     int n;
+    int star = '&';
     printf("Enter the value ");
-    scanf("%d",&n);
-    for(int i=1 ;i<=n;i++)
-    {
-        for (int k=n;k>i;k--)
-        printf(" ");{
-        for(int j=1;j<=i;j++)
+    printf("\n");
         printf(" * ");
-        printf(" \n ");}
-    }
+        printf("%d",star);
+        
+    
     return 0;
 }
