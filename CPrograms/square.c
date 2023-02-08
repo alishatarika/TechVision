@@ -4,7 +4,7 @@ int main()
 {
     int number;
     
-    printf("enter a number");
+    printf("enter a number ");
     scanf("%d",&number);
     square(number);
     printf("number is %d",number);
