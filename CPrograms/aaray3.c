@@ -2,10 +2,12 @@
 #include<stdio.h>
 int main()
 {
-    int age; // declare variable 
+    int age = 23; // declare variable 
     int *old =&age;
-    printf("%d \n",old);
-     old++;
-  printf("%d",old);
+
+  // we can subtract two pointers
+int age1 = 45;
+int *young =&age1;
+printf("%d",young-old);
   return 0;
 }
