@@ -12,7 +12,8 @@ printf("\n4.Exit");
 printf("\n Enter your choice from(1-4) ");
 scanf("%d",&me);
 
-computer=rand() % 3;
+computer=rand() % 3 + 1;
+printf("computer choice is %d",computer);
 
 if(me==4){
 exit(1);}
@@ -32,7 +33,7 @@ else if(me==3 && computer==1){
     printf("\n YOU WON \n");
 }
 else{
-    printf("GAME DRAW \n");
+    printf(" \n GAME DRAW \n");
 }
 return 0;
 
