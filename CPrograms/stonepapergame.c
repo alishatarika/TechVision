@@ -25,7 +25,7 @@ int main()
         computer = ((rand() % 3) + 1);
         printf("Computer choice is %d", computer);
 
-        if (me == 4)
+        if (me >= 4)
         {
             printf("\n GAME OVER");
             exit(1);
