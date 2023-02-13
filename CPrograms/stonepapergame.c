@@ -6,7 +6,7 @@ int main()
     int me;
     int computer;
 
-    srand(time(NULL));
+    //srand(time(NULL));
     printf("\n WELCOME TO ROCK,PAPER SCISSOR GAME \n");
     printf("\n1. Select rock");
     printf("\n2. Select paper");
@@ -68,7 +68,6 @@ int main()
             printf(" \n GAME DRAW \n");
         }
     }
-    
 
     return 0;
 }
