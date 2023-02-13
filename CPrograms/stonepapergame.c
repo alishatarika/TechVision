@@ -3,11 +3,13 @@
 #include <time.h>
 int main()
 {
-    int me;
+    int me=0;
     int computer;
-
-    //srand(time(NULL));
-    printf("\n WELCOME TO ROCK,PAPER SCISSOR GAME \n");
+    int ROCK=1;
+    int PAPER=2;
+    int SCISSOR=3;
+    int EXIT=4;
+    srand(time(NULL));
     printf("\n1. Select rock");
     printf("\n2. Select paper");
     printf("\n3.Select scissor");
@@ -23,45 +25,39 @@ int main()
 
         if (me == 4)
         {
-            printf("\n\n  GAME OVER \n");
+            printf("\n GAME OVER");
             exit(1);
         }
-        else if (me == 1 && computer == 2)
+        else if (me == ROCK && computer == PAPER)
         {
             printf("\nYour choice is rock ,Computer choice is paper  **paper beat rock ");
-            printf("\n  YOU LOSS \n");
-            printf("..........");
+            printf("\n COMPUTER WON \n");
         }
-        else if (me == 1 && computer == 3)
+        else if (me == ROCK && computer == SCISSOR)
         {
             printf("\nYour choice is rock ,Computer choice is scissor  **rock beat scissor ");
-            printf("\n  YOU WON \n");
-            printf("  ..........");
+            printf("\n YOU WON \n");
         }
 
-        else if (me == 2 && computer == 1)
+        else if (me == PAPER && computer == ROCK)
         {
             printf("\nYour choice is paper ,Computer choice is rock  **paper beats rock ");
-            printf("\n  YOU WON \n");
-            printf("  ..........");
+            printf("\n YOU WON \n");
         }
-        else if (me == 2 && computer == 3)
+        else if (me == PAPER && computer == SCISSOR)
         {
             printf("\nYour choice is paper ,Computer choice is scissor  **scissor beats paper ");
-            printf("\n  YOU LOSS \n");
-            printf("  ..........");
+            printf("\n  COMPUTER WON \n");
         }
-        else if (me == 3 && computer == 1)
+        else if (me == SCISSOR && computer == ROCK)
         {
             printf("\nYour choice is scissor ,Computer choice is rock  **rock beats scissor ");
-            printf("\n  YOU LOSS \n");
-            printf("  ..........");
+            printf("\n COMPUTER WON \n");
         }
-        else if (me == 3 && computer == 2)
+        else if (me == SCISSOR && computer == PAPER)
         {
             printf("\nYour choice is scissor ,Computer choice is paper  **scissor beats paper ");
-            printf("\n  YOU WON \n");
-            printf("  ..........");
+            printf("\n YOU WON \n");
         }
         else
         {
