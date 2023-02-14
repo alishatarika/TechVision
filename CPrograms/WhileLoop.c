@@ -13,6 +13,6 @@ printf(" %d x %d = %d \n " , n , i , n * i);
 i++;
 }
 
-
+printf("f");
 return 0;
 }

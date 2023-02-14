@@ -70,6 +70,7 @@ int main()
         else
         {
             printf(" \n GAME DRAW \n");
+            
         }
         printf("\n|---------------------------------------|");
         printf("\n|           FINAL SCORE                 |");
