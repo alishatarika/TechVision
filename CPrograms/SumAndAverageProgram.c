@@ -20,7 +20,7 @@ int main()
         
     }
     
-    average =(float) sum /i ;
+    average = sum /i ;
     
     
     printf(" sum of number is %d", sum);
