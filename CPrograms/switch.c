@@ -17,11 +17,11 @@ int main()
     break;
     case 5: printf("friday");
     break;
-    case 6: printf("saturday");
-    break;
-    case 7: printf("sunday");
-    break;
-    default : printf("not valid");
+    default: printf("saturday");
+    
+     printf("sunday");
+break;
+     printf("not valid");
     
 
  }
