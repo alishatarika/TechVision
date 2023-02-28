@@ -2,15 +2,41 @@
 int main()
 {
     int n;
+    printf("enter the class of student");
+    scanf("%d",&n);
     int i;
-    int j;
-    printf("Enter a number ");
-    scanf("%d", &n);
-    for (i = 1; i <= n; i++)
+    printf("number of subjects failed by student");
+    scanf("%d",&i);
+    
+    switch (n)
     {
-        for (j = 1; j <= i; j++)
-        printf("%d", j);
-        printf(" \n ");
+    case 1: if(i>=3){
+        printf("no grace marks");
     }
+else
+{
+printf("no grace");
+}
+        break;
+          case 2: if(i>=3){
+        printf("no grace marks");
+    }
+else
+{
+printf("no grace");
+}
+        break;
+          case 3: if(i>=3){
+        printf("no grace marks");
+    }
+else
+{
+printf("grace");
+}
+        break;
+    
+   
+    }
+    
     return 0;
 }

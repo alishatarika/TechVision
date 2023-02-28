@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int marks[4];
+    int marks[100];
     printf("Enter the marks of physics ");
     scanf("%d", &marks[0]);
     printf("Enter the marks of hindi ");

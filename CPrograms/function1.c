@@ -1,22 +1,15 @@
 #include <stdio.h>
-int areaofrectangle(int a, int b);
-int areaofsquare(int a);
 int main()
 {
-    int a;
-    int b;
-    printf("Enter a");
-    scanf("%d", &a);
-    printf("Enter b");
-    scanf("%d", &b);
-    printf("%d", areaofrectangle(a, b));
+    int n;
+    int i=2;
+    scanf("%d",&n);
+    while(n>1){
+        if(n%i==0){
+            printf("%d ",i);
+            n=n/i;
+        }
+        i++;
+    }
     return 0;
-}
-int areaofrectangle(int a, int b)
-{
-    return a * b;
-}
-int areaofsquare(int a)
-{
-    return a * a;
 }

@@ -6,7 +6,9 @@ int main()
     printf("enter value");
     scanf("%d", &i);
     int *ptr = &i;
-    int **pptr = &ptr;
-    printf("%d", **pptr);
+   
+    printf("%d", ptr);
+    ptr++;
+    printf("%d", ptr);
     return 0;
 }
