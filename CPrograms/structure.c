@@ -10,12 +10,11 @@ struct student
 int main()
 {
     struct student s;
-    s.roll=12;
-    s.cgpa=9.6;
-    strcpy(s.name,"alisha");
-    printf("%d",s.roll);
-    printf("%f",s.cgpa);
-    printf("%s",s.name);
+   
+  
+    scanf("%d",&s.roll);
+    scanf("%f",&s.cgpa);
+    scanf("%s",&s.name);
     
     return 0;
 }

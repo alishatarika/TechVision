@@ -13,6 +13,7 @@ int main()
         i++;
         
         sum = sum + n;
+         average = sum /i ;
         
         
         printf("Do you want to continue (y/n) ");
@@ -20,7 +21,7 @@ int main()
         
     }
     
-    average = sum /i ;
+   
     
     
     printf(" sum of number is %d", sum);
