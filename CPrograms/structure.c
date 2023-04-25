@@ -6,10 +6,10 @@ struct student
     char name[100];
     int roll;
     float cgpa;
-};
+}s;
 int main()
 {
-    struct student s;
+  
    
   
     scanf("%d",&s.roll);

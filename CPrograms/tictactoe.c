@@ -68,6 +68,7 @@ void markingboard(int choice, char mark)
    else
    {
       printf("invalid choice");
+     
    }
 }
 int checkforwin()
