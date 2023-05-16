@@ -10,7 +10,7 @@ int main()
     int n2 = 1;
     int sum;
     
-    
+}
 
     for (int i = 1; i <= n; i++)
     
