@@ -1,6 +1,7 @@
 #include<stdio.h>
 void Namaste();
 void Bonjour();
+
 int main()
 {
     

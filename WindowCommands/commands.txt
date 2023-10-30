@@ -1,6 +1,0 @@
-cls-cls is the command used to clear the screen
-cd-cd command is used to change the current working directory
-mkdir-mkdir is used to make a new directory 
-echo-echo command is used to displaying lines of text
-type-type command is used to view a text file
-dir-dir command is used to displays directory of files

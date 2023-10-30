@@ -1,5 +1,0 @@
-git add command is used to add a all changed files
-git status command displays the state of the working directory 
-git commit command is used to commit or save a file
-git push command is used to upload a local repositiory
-git init creates a new git repositiory

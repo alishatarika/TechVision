@@ -1,7 +1,68 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
-    "configurations": []
+    "versio": "0.2.0",
+    "cofiguratios": [
+        {
+            "ame": "C/C++: cpp.exe build ad debug active file",
+            "type": "cppdbg",
+            "request": "lauch",
+            "program": "${fileDirame}\\${fileBaseameoExtesio}.exe",
+            "args": [],
+            "stopAtEtry": false,
+            "cwd": "${fileDirame}",
+            "eviromet": [],
+            "exteralCosole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MiGW\\bi\\gdb.exe",
+            "setupCommads": [
+                {
+                    "descriptio": "Eable pretty-pritig for gdb",
+                    "text": "-eable-pretty-pritig",
+                    "igoreFailures": true
+                },
+                {
+                    "descriptio": "Set Disassembly Flavor to Itel",
+                    "text": "-gdb-set disassembly-flavor itel",
+                    "igoreFailures": true
+                }
+            ],
+            "preLauchTask": "C/C++: cpp.exe build active file"
+        },
+        {
+            "ame": "(Widows) Lauch",
+            "type": "cppvsdbg",
+            "request": "lauch",
+            "program": "eter program ame, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEtry": false,
+            "cwd": "${fileDirame}",
+            "eviromet": [],
+            "cosole": "exteralTermial"
+        },
+        {
+            "ame": "C/C++: gcc.exe build ad debug active file",
+            "type": "cppdbg",
+            "request": "lauch",
+            "program": "${fileDirame}\\${fileBaseameoExtesio}.exe",
+            "args": [],
+            "stopAtEtry": false,
+            "cwd": "${fileDirame}",
+            "eviromet": [],
+            "exteralCosole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MiGW\\bi\\gdb.exe",
+            "setupCommads": [
+                {
+                    "descriptio": "Eable pretty-pritig for gdb",
+                    "text": "-eable-pretty-pritig",
+                    "igoreFailures": true
+                },
+                {
+                    "descriptio": "Set Disassembly Flavor to Itel",
+                    "text": "-gdb-set disassembly-flavor itel",
+                    "igoreFailures": true
+                }
+            ],
+            "preLauchTask": "C/C++: gcc.exe build active file"
+        }
+    ]
 }
